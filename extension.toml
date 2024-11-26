@@ -1,0 +1,15 @@
+id = "moonbit"
+name = "MoonBit"
+description = "MoonBit language support"
+version = "0.0.1"
+schema_version = 1
+authors = ["kei"]
+repository = "https://github.com/lnxyz/zed-moonbit"
+
+[language_servers.moonbit]
+language = "MoonBit"
+name = "MoonBit Language Server"
+
+[grammars.moonbit]
+repository = "https://github.com/moonbitlang/tree-sitter-moonbit"
+commit = "de367dfb2ff5d00cdb1a27d915f509efd25aa269"
